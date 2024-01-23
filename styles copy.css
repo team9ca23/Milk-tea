@@ -98,7 +98,7 @@ body {
 }
 
 .beverage-item img {
-  max-width: 150px;
+  
   height: auto; 
   margin-bottom: 10px; 
 }
@@ -202,7 +202,7 @@ body {
 }
 
 .beverage-item img {
-  max-width: 150px; 
+ 
   height: auto; 
   margin-bottom: 10px; 
   display: block;
@@ -248,7 +248,7 @@ body {
 
   
   .beverage-item img{
-    max-width: 150px; /* 设置图片最大宽度 */
+    
     height: auto; /* 保持图片宽高比 */
     margin-bottom: 10px; /* 图片和文本之间的间隙 */
     display: block; /* 确保图片不会在行内显示，这样可以应用 margin */
@@ -274,7 +274,7 @@ body {
   }
   
   .beverage-item img {
-    max-width: 150px; /* 图片最大宽度 */
+    
     width: 100%; /* 图片宽度填充整个容器宽度 */
     height: auto; /* 保持图片宽高比 */
     margin-bottom: 10px; /* 图片和文本之间的间隙 */
