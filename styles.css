@@ -97,12 +97,13 @@ body {
     text-align: center;
   }
   
-  .beverage-item img {
-    
-    height: auto; 
-    margin-bottom: 10px; 
-  }
+ .beverage-item img {
   
+  width: 200px; 
+  height: 200px; 
+  margin-bottom: 10px; 
+}
+
   .beverage-item p {
     margin: 0; 
     font-weight: bold; 
@@ -177,12 +178,13 @@ body {
     margin-bottom: 20px; 
   }
   
-  .beverage-item img {
-    width: 100%; 
-    height: auto; 
-    margin-bottom: 10px;
-  }
+.beverage-item img {
   
+  width: 200px; 
+  height: 200px; 
+  margin-bottom: 10px; 
+}
+
   .beverage-item p {
     margin: 0; 
     font-weight: bold; 
@@ -201,14 +203,13 @@ body {
     }
   }
   
-  .beverage-item img {
-    
-    height: auto; 
-    margin-bottom: 10px; 
-    display: block;
-    margin-left: auto; 
-    margin-right: auto;
-  }
+.beverage-item img {
+  
+  width: 200px; 
+  height: 200px; 
+  margin-bottom: 10px; 
+}
+
   
 
   .beverage-item {
