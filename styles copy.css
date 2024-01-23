@@ -96,12 +96,13 @@ body {
   margin: 10px;
   text-align: center;
 }
-
 .beverage-item img {
   
-  height: auto; 
+  width: 200px; 
+  height: 200px; 
   margin-bottom: 10px; 
 }
+
 
 .beverage-item p {
   margin: 0; 
@@ -178,9 +179,10 @@ body {
 }
 
 .beverage-item img {
-  width: 100%; 
-  height: auto; 
-  margin-bottom: 10px;
+  
+  width: 200px; 
+  height: 200px; 
+  margin-bottom: 10px; 
 }
 
 .beverage-item p {
@@ -202,12 +204,10 @@ body {
 }
 
 .beverage-item img {
- 
-  height: auto; 
+  
+  width: 200px; 
+  height: 200px; 
   margin-bottom: 10px; 
-  display: block;
-  margin-left: auto; 
-  margin-right: auto;
 }
 
 
@@ -225,7 +225,6 @@ body {
   text-align: center;
   height: 250px;
 }
-
 .beverage-item img {
   
   width: 200px; 
@@ -247,14 +246,13 @@ body {
 
 
   
-  .beverage-item img{
-    
-    height: auto; /* 保持图片宽高比 */
-    margin-bottom: 10px; /* 图片和文本之间的间隙 */
-    display: block; /* 确保图片不会在行内显示，这样可以应用 margin */
-    margin-left: auto; /* 这两个 margin 设置是为了居中图片 */
-    margin-right: auto;
-  }
+.beverage-item img {
+  
+  width: 200px; 
+  height: 200px; 
+  margin-bottom: 10px; 
+}
+
   
 
   .beverage-item {
@@ -273,12 +271,13 @@ body {
     height: 250px; 
   }
   
-  .beverage-item img {
-    
-    width: 100%; /* 图片宽度填充整个容器宽度 */
-    height: auto; /* 保持图片宽高比 */
-    margin-bottom: 10px; /* 图片和文本之间的间隙 */
-  }
+.beverage-item img {
+  
+  width: 200px; 
+  height: 200px; 
+  margin-bottom: 10px; 
+}
+
   
   .beverage-item p {
     margin-top: auto; /* 自动将段落推到底部 */
