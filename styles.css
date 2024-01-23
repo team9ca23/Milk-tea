@@ -69,6 +69,8 @@ body {
 
 .beverage-item img {
   width: 200px;
+  padding:10px;
+  margin:15px;
   height: 250px;
   margin-bottom: 10px;
 }
