@@ -227,9 +227,9 @@ body {
 }
 
 .beverage-item img {
-  max-width: 150px; 
-  width: 100%; 
-  height: auto; 
+  
+  width: 200px; 
+  height: 200px; 
   margin-bottom: 10px; 
 }
 
