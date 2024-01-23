@@ -13,20 +13,6 @@ body {
   overflow: hidden;
 }
 
-.navbar a {
-  float: left;
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-.navbar a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
 .nav-links {
   font-size: 36px;
   color: #fbeec1;
@@ -51,12 +37,15 @@ body {
   background-color: #FFC085;
 }
 
-.popular-beverages, .footer {
+.popular-beverages {
   text-align: center;
+  padding: 20px;
   background-color: #FFDAB9;
 }
 
-.popular-beverages h1, .popular-beverages h2, .popular-beverages p {
+.popular-beverages h1,
+.popular-beverages h2,
+.popular-beverages p {
   color: #000000;
 }
 
@@ -91,8 +80,10 @@ body {
 }
 
 .footer {
+  background-color: #f4976c;
   padding: 20px 0;
   color: white;
+  text-align: center;
 }
 
 .footer-content {
@@ -102,11 +93,13 @@ body {
   justify-content: center;
 }
 
-.footer-nav, .social-links {
+.footer-nav,
+.social-links {
   margin-bottom: 10px;
 }
 
-.footer-nav a, .social-links a {
+.footer-nav a,
+.social-links a {
   color: white;
   text-decoration: none;
   margin: 0 10px;
@@ -115,42 +108,39 @@ body {
   transition: color 0.3s;
 }
 
-.footer-nav a:hover {
-  color: #FFD700;
-}
-
 .social-links img {
   width: 24px;
   margin: 0 10px;
 }
 
-.our-story-container {
-  display: flex;
-  justify-content: space-between;
-  background-color: #FFDAB9;
+/* 响应式布局调整 */
+@media (max-width: 1024px) {
+  .navbar,
+  .footer-content {
+    flex-direction: column;
+  }
+
+  .nav-links {
+    padding-top: 10px;
+  }
+
+  .beverage-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
-.our-story-container .text-section {
-  padding: 50px;
+@media (max-width: 768px) {
+  .beverage-container {
+    grid-template-columns: 1fr;
+  }
 }
 
-.our-story-container .text-section h2 {
-  color: #333;
-  font-size: 60px;
-  font-weight: bold;
-  text-align: start;
-  margin-bottom: 0.5em;
-}
-
-.our-story-container .text-section p {
-  color: #333;
-  font-size: 2em;
-  margin-bottom: 2em;
-}
-
-.image-section img {
-  max-width: 200px;
-  height: auto;
+@media (max-width: 768px) {
+  .navbar a:hover,
+  .footer-nav a:hover {
+    background-color: transparent;
+    color: #FFD700;
+  }
 }
 
 
